@@ -1,0 +1,81 @@
+{
+  "botTokenFile": "tokens.txt",
+  "trashTokenFile": "trashtokens.txt",
+  "dmMessage": {
+    "normalText": "🎉 **GIVEAWAY ENDED** 🎉\n\nCongratulations, <@[USER_ID]> you won a\n[5x] Raccoon giveaway",
+    "embed": {
+      "color": "#0099FF",
+      "title": "[5x] Raccoon",
+      "url": "https://discord.gg/owobot",
+      "fields": [
+        {
+          "name": "Ended:",
+          "value": "",
+          "inline": false,
+          "dynamicTimestamp": true,
+          "timestampOffsetMinutes": -2,
+          "timestampFormat": "f"
+        },
+        {
+          "name": "Hosted by:",
+          "value": "[GROW A GARDEN EVENTS 🌱](https://discord.gg/owobot)", 
+          "inline": false
+        },
+        {
+          "name": "Entries:",
+          "value": "723",
+          "inline": false
+        },
+        {
+          "name": "Winners:",
+          "value": "<@[USER_ID]>", 
+          "inline": false
+        }
+      ],
+      "footer": {
+        "text": "Giveaways Bot",
+        "iconURL": null
+      },
+      "thumbnailURL": null, 
+      "imageURL": null      
+    },
+    "button": {
+      "label": "Redeem Prize!",
+      "url": "https://discord.gg/owobot"
+    }
+  }
+}
+
+
+şimdi eğer bunu okuyacak kadar eziksen söyleyecek bir sözüm yok.Şaka şaka kurulum şakası anladınmı hee.Şimdi geçelim  url kısımları  hepsi önemli eğer urlleri girmiceksen eğer  girersen tabi daha iyi olur.Girmiceksen lütfen
+"url": "https://discord.gg/owobot"
+
+ şunu
+
+ "url": null
+ 
+ şöyle yap
+ o kadarck
+
+ virgüllere dikkat et eğer bir virgülü yanlışlık koyar veya silersen o zmn bot çalışamaz.Configteki neredeyse tüm linkleri değişe bilirsin.
+
+
+ Ve son olarak eğerki botun hızını artırmak ve düşürmek istersen
+
+ index.jsdeki  247 ci satıra bakmayi deneye bilirsin
+
+ await new Promise(resolve => setTimeout(resolve, 500));
+
+
+şu kısımda 500 rakamı yarım saniye demek
+1000- 1 saniye demek 
+
+keyfine göre ayarlaya bilirsin istersen 50 saat yap kimin sknde.sadce saniye cinsinden ayarlandığını unutma.
+
+İyi kullanımlar
+
+
+İmza
+öpücük emojisi Doktor.
+
+öpücük emojisi koymaya üşendim amk yinede iyi günler dilerim

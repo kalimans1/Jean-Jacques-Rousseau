@@ -1,0 +1,47 @@
+{
+  "botTokenFile": "tokens.txt",
+  "trashTokenFile": "trashtokens.txt",
+  "dmMessage": {
+    "normalText": "🎉 **GIVEAWAY ENDED** 🎉\n\nCongratulations, <@[USER_ID]> you won a\n[5x] Raccoon giveaway",
+    "embed": {
+      "color": "#0099FF",
+      "title": "[5x] Raccoon",
+      "url": "https://discord.gg/owobot",
+      "fields": [
+        {
+          "name": "Ended:",
+          "value": "",
+          "inline": false,
+          "dynamicTimestamp": true,
+          "timestampOffsetMinutes": -2,
+          "timestampFormat": "f"
+        },
+        {
+          "name": "Hosted by:",
+          "value": "[GROW A GARDEN\\nEVENTS 🌱](https://discord.gg/owobot)", 
+          "inline": false
+        },
+        {
+          "name": "Entries:",
+          "value": "723",
+          "inline": false
+        },
+        {
+          "name": "Winners:",
+          "value": "<@[USER_ID]>", 
+          "inline": false
+        }
+      ],
+      "footer": {
+        "text": "Giveaways Bot",
+        "iconURL": null
+      },
+      "thumbnailURL": null, 
+      "imageURL": null      
+    },
+    "button": {
+      "label": "Redeem Prize!",
+      "url": "https://discord.gg/owobot"
+    }
+  }
+}
